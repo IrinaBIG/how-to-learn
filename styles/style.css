@@ -62,7 +62,7 @@ z-index: 3;
 }
 
 .header__subtitle {
-  width: 388px; 
+  width: 388px;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -203,7 +203,7 @@ z-index: 3;
 .feynman {
   display: flex;
   flex-direction: column;
-  align-self: flex-start; 
+  align-self: flex-start;
   position: relative;
   height: 890px;
   background-color: #f2f2f2;
@@ -381,7 +381,7 @@ z-index: 3;
 .footer__column-heading {
   line-height: 30px;
   font-weight: bold;
-  font-size: 18px; 
+  font-size: 18px;
   color: white;
   margin-bottom: 20px;
   /*border: 1px solid yellow;*/
@@ -391,7 +391,7 @@ z-index: 3;
   display: flex;
   line-height: 30px;
   font-weight: normal;
-  font-size: 18px; 
+  font-size: 18px;
   color: white;
   padding-bottom: 16px;
  
