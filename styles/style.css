@@ -75,8 +75,8 @@
   bottom: 0;
   width: 765px;
   height: 608px;
-  z-index: 2;  
-  object-fit: cover; 
+  z-index: 2;
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -335,7 +335,7 @@
   padding-bottom: 18px;
   padding-top: 18px;
   margin: 0px;
-  }
+}
 
 .footer__column-heading {
   line-height: 30px;
@@ -344,7 +344,7 @@
   color: white;
   margin-bottom: 20px;
   margin-top: 0px;
- }
+}
 
 .footer__column_content_info {
   min-height: 250px;
@@ -372,5 +372,5 @@ text-decoration: none;
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
