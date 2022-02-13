@@ -1,0 +1,10 @@
+/* устанавливаем местоположение логотипа */
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  align-self: flex-start;
+  height: 32px;
+  background-image: url(../images/logo_place_header.svg);
+  z-index: 3;
+}

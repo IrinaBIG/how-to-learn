@@ -1,0 +1,5 @@
+/* устанавливаем размер и картинку логотипа */
+.logo {
+  width: 183px;
+  background-repeat: no-repeat;
+}
