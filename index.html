@@ -15,7 +15,7 @@
           <a href="#" class="header__link">Узнать &rarr;</a>
         </p>
         <img class="header__main-illustration" src="blocks/header/images/header-image.png" alt="Здесь должна быть часть картины Опять двойка">
-      <div class="header__square-pic">
+      <div class="header__square-pic rotation">
       </div>
     </header>
     <main class="content">
@@ -33,30 +33,30 @@
       </section>
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
-        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <div class="cards">
           <div class="cards__item">
-            <img class="cards__image" src="blocks/content/techniques/images/cards-attention.png" alt="фото к тексту">
+            <img class="cards__image" src="blocks/cards/images/cards-attention.png" alt="фото к тексту">
             <p class="cards__title">Два вида внимания</p>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеяное мышление.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="blocks/content/techniques/images/cards-recall.png" alt="фото к тексту">
+            <img class="cards__image" src="blocks/cards/images/cards-recall.png" alt="фото к тексту">
             <p class="cards__title">Recall</p>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="blocks/content/techniques/images/cards-interliving.png" alt="фото к тексту">
+            <img class="cards__image" src="blocks/cards/images/cards-interliving.png" alt="фото к тексту">
             <p class="cards__title">Интерливинг</p>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="blocks/content/techniques/images/cards-question.png" alt="фото к тексту">
+            <img class="cards__image" src="blocks/cards/images/cards-question.png" alt="фото к тексту">
             <p class="cards__title">Вопросы</p>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="blocks/content/techniques/images/cards-competence.png" alt="фото к тексту">
+            <img class="cards__image" src="blocks/cards/images/cards-competence.png" alt="фото к тексту">
             <p class="cards__title">Иллюзия компетентности</p>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
@@ -64,16 +64,10 @@
       </section>
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
-        <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe width="515" height="316"
-src="https://www.youtube.com/embed/5MgBikgcWnY?controls=0&fs=0&modestbranding=1" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe width="515" height="316"
-src="https://www.youtube.com/embed/arj7oStGLkU?controls=0&fs=0&modestbranding=1" allowfullscreen></iframe>
-          </div>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY?controls=0&fs=0&modestbranding=1" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU?controls=0&fs=0&modestbranding=1" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -87,13 +81,13 @@ src="https://www.youtube.com/embed/arj7oStGLkU?controls=0&fs=0&modestbranding=1"
       </section>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-        <img class="feynman__image" src="blocks/content/feynman/images/feynman.png" alt="Фотография Фейнмана">
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <img class="feynman__image" src="blocks/feynman/images/feynman.png" alt="Фотография Фейнмана">
         <a href="#" class="feynman__link">Подробнее &rarr;</a>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
             <li class="table__cell">
               <h3 class="table__heading">86 миллиардов</h3>
@@ -146,8 +140,8 @@ src="https://www.youtube.com/embed/arj7oStGLkU?controls=0&fs=0&modestbranding=1"
       </section>
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
-        <ol class="table table_theme_dark">
+        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
+        <ul class="table table_theme_dark">
             <li class="table__cell table__cell_theme_dark">
               <h3 class="table__heading table__heading_theme_dark">1</h3>
               <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -188,18 +182,18 @@ src="https://www.youtube.com/embed/arj7oStGLkU?controls=0&fs=0&modestbranding=1"
               <h3 class="table__heading table__heading_theme_dark">10</h3>
               <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
             </li>                        
-          </ol>
-        <div class="kaufman__triangle">
+          </ul>
+        <div class="kaufman__triangle rotation">
         </div>
       </section>
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
-        <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <nav class="resources__logo-zone">
-          <a href="https://arzamas.academy/" target="_blank"><img src="blocks/content/resources/images/resources-arzamas.svg" class="resources__logo" alt="ресурс Arzamas"></a> 
-          <a href="https://nplus1.ru/" target="_blank"><img src="blocks/content/resources/images/resources-n1.svg" class="resources__logo" alt="ресурс nplus1"></a>
-          <a href="https://strelka.com/ru" target="_blank"><img src="blocks/content/resources/images/resources-strelka.svg" class="resources__logo" alt="ресурс strelka"></a>
-          <a href="https://polka.academy/" target="_blank"><img src="blocks/content/resources/images/resources-polka.svg" class="resources__logo" alt="ресурс polka"></a>
+          <a href="https://arzamas.academy/" target="_blank"><img src="blocks/resources/images/resources-arzamas.svg" class="resources__logo" alt="ресурс Arzamas"></a> 
+          <a href="https://nplus1.ru/" target="_blank"><img src="blocks/resources/images/resources-n1.svg" class="resources__logo" alt="ресурс nplus1"></a>
+          <a href="https://strelka.com/ru" target="_blank"><img src="blocks/resources/images/resources-strelka.svg" class="resources__logo" alt="ресурс strelka"></a>
+          <a href="https://polka.academy/" target="_blank"><img src="blocks/resources/images/resources-polka.svg" class="resources__logo" alt="ресурс polka"></a>
         </nav>
       </section>
     </main>
@@ -209,22 +203,22 @@ src="https://www.youtube.com/embed/arj7oStGLkU?controls=0&fs=0&modestbranding=1"
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&copy;2022. Ирина Берестова</p>
       </div>
-      <div class="footer__column footer__column_content_info">
+      <nav class="footer__column footer__column_content_info">
         <h4 class="footer__column-heading">О Практикуме</h4>
-        <nav class="footer__column-links">
-          <a href="#" class="footer__column-link">Главная</a> 
-          <a href="#" class="footer__column-link">Концепция</a> 
-          <a href="#" class="footer__column-link">Наставники</a> 
-        </nav>
-      </div>
-      <div class="footer__column footer__column_content_social">
+        <ul class="footer__column-links">
+          <li><a href="#" class="footer__column-link">Главная</a></li>
+          <li><a href="#" class="footer__column-link">Концепция</a></li>
+          <li><a href="#" class="footer__column-link">Наставники</a></li> 
+        </ul>
+      </nav>
+      <nav class="footer__column footer__column_content_social">
         <h5 class="footer__column-heading">Соцсети</h5>
-        <nav class="footer__column-links">
-          <a class="footer__column-link" href="https://ru-ru.facebook.com/" target="_blank"> <img class="footer__social-icon" src="blocks/footer/images/facebook_color_white.svg" alt="здесь должен быть значок facebook">facebook</a>
-          <a class="footer__column-link" href="https://vk.com/" target="_blank"> <img class="footer__social-icon" src="blocks/footer/images/vk_color_white.svg" alt="здесь должен быть значок ВКонтакте">ВКонтакте</a>
-          <a class="footer__column-link" href="https://www.instagram.com/" target="_blank"> <img class="footer__social-icon" src="blocks/footer/images/instagram_color_white.svg" alt="здесь должен быть значок instagram">Instagram</a>
-        </nav> 
-      </div>
+        <ul class="footer__column-links">
+          <li><a class="footer__column-link" href="https://ru-ru.facebook.com/" target="_blank"> <img class="footer__social-icon" src="blocks/footer/images/facebook_color_white.svg" alt="здесь должен быть значок facebook">facebook</a></li>
+          <li><a class="footer__column-link" href="https://vk.com/" target="_blank"> <img class="footer__social-icon" src="blocks/footer/images/vk_color_white.svg" alt="здесь должен быть значок ВКонтакте">ВКонтакте</a></li>
+          <li><a class="footer__column-link" href="https://www.instagram.com/" target="_blank"> <img class="footer__social-icon" src="blocks/footer/images/instagram_color_white.svg" alt="здесь должен быть значок instagram">Instagram</a></li>
+        </ul> 
+      </nav>
     </div>
     </footer>
   </div>

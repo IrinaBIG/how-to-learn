@@ -4,6 +4,8 @@
   font-weight: normal;
   font-size: 18px;
   color: white;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   flex-direction: column;
+  list-style: none;
+  padding-left: 0px;
 }
